@@ -1,0 +1,8 @@
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\bin\Debug\netstandard2.0\HolidayDestinations.Domain.deps.json
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\bin\Debug\netstandard2.0\HolidayDestinations.Domain.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\bin\Debug\netstandard2.0\HolidayDestinations.Domain.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\obj\Debug\netstandard2.0\HolidayDestinations.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\obj\Debug\netstandard2.0\HolidayDestinations.Domain.AssemblyInfoInputs.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\obj\Debug\netstandard2.0\HolidayDestinations.Domain.AssemblyInfo.cs
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\obj\Debug\netstandard2.0\HolidayDestinations.Domain.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\obj\Debug\netstandard2.0\HolidayDestinations.Domain.pdb

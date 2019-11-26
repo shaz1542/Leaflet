@@ -19,6 +19,10 @@ We would then take a look at the challenge and get back to you to arrange a meet
 
 Steps
 ________________________________________
+typescript
+react
+swagger
+
 
 {
 Leaflet library for map view
@@ -54,7 +58,8 @@ API 1hr
 Documentation 30 mins
 
 
+
 Submission Must by Tuesday night!
-Management deadline 9 pm
-TeamLead 4 pm
-Dev deadline 12 noon
+Management deadline 9 pm (out of hands) - excute and win early always to be able to be relaxed for later
+TeamLead 4 pm Bring in resources/Get on/Buy time(plan ahead for futres)
+Dev deadline 12 noon Faild (not good focus)
