@@ -1,4 +1,8 @@
-﻿@{
+﻿@using HolidayDestinations.Web.Models
+
+@model List<Destination>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -7,6 +11,14 @@
 
 
 <!-- Make sure you put this AFTER Leaflet's CSS -->
+<div name="destinationsContainer" destinations="@Model.First().Note">
+    @{foreach (var destination in Model)
+        {
+        <div name="destination" note="@destination.Note" latitude ="@destination.Latitude" longitude="@destination.Longitude">
+        </div>
+        }
+    }
+</div>
 
 
 <div style="height: 360px; " id="mapid"></div>

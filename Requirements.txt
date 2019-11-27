@@ -70,8 +70,8 @@ submit
 REST API
 
 Refactor 1 hr
-Test cases 30 mins
-Testing on mobile30 mins
+
+
 API 1hr
 Documentation 30 mins
 
