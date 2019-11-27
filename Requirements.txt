@@ -1,5 +1,7 @@
 Requirements of the Coding Challenge: 
-A web application is supposed to be developed on which future holiday destinations can be entered in an interactive map view. This map view will be implemented with the JavaScript Library "Leaflet" (https://leafletjs.com/). By clicking on the map it should be possible to place markers on the map.
+A web application is supposed to be developed on which future holiday destinations can be entered in an interactive map view.
+ This map view will be implemented with the JavaScript Library "Leaflet" (https://leafletjs.com/). 
+ By clicking on the map it should be possible to place markers on the map.
 UserStory: " I wish for example to travel to Israel next year, so I click with the mouse on the map on a position in Israel and can mark with it my holiday destination in Israel". 
 In addition to the position a note text should be saved. 
 UserStory: "I place a marker on any point in Israel and can type e.g. into a text field: Summer vacation 2020". 
@@ -13,6 +15,7 @@ Technologies:
 - Database: MySQL
 
 Timeframe:
+
 Please send me the result of your coding challenge by Wednesday, 28.11., 22:00 by email: the source code and, if necessary, a way to create the database table.
 
 We would then take a look at the challenge and get back to you to arrange a meeting. 
@@ -23,15 +26,12 @@ typescript
 react
 swagger
 
-
 {
-Leaflet library for map view
+Leaflet library for map view 
 have a simple implementation
 
 click and place markers on the map have a text box to enter the text
 
-sent to the controller
-30 10 30 
 
 use the rest api client to store to the db
 list, 
@@ -48,8 +48,24 @@ Video on Clean 1 hour - Done {Great learning}
 
 
 DATABASE  NEEDS REFACTORING
-INFRASTRUE NEEDS SEGRGATION	
+INFRASTRUTURE NEEDS SEGRGATION	
 API NEEDS IMPLEMENTATION
+{
+by 2
+All ui 
+by 3
+Mediator
+Refactoring
+by 4
+
+by 5
+Test
+Infrastructure
+by 6
+Documentation
+at 6 
+submit
+}
 
 REST API
 

@@ -14802,9 +14802,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shaz\\Documents\\SourceTree\\Leaflet\\Source\\HolidayDestinations\\HolidayDestinaions.Web\\HolidayDestinations.Web.csproj",
-      "projectName": "HolidayDestinations.Web",
-      "projectPath": "C:\\Users\\Shaz\\Documents\\SourceTree\\Leaflet\\Source\\HolidayDestinations\\HolidayDestinaions.Web\\HolidayDestinations.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Shaz\\Documents\\SourceTree\\Leaflet\\Source\\HolidayDestinations\\HolidayDestinaions.Web\\HolidayDestinations.WebApi.csproj",
+      "projectName": "HolidayDestinations.WebApi",
+      "projectPath": "C:\\Users\\Shaz\\Documents\\SourceTree\\Leaflet\\Source\\HolidayDestinations\\HolidayDestinaions.Web\\HolidayDestinations.WebApi.csproj",
       "packagesPath": "C:\\Users\\Shaz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Shaz\\Documents\\SourceTree\\Leaflet\\Source\\HolidayDestinations\\HolidayDestinaions.Web\\obj\\",
       "projectStyle": "PackageReference",

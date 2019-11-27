@@ -6,3 +6,4 @@ C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDes
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\obj\Debug\netstandard2.0\HolidayDestinations.Domain.AssemblyInfo.cs
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\obj\Debug\netstandard2.0\HolidayDestinations.Domain.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\obj\Debug\netstandard2.0\HolidayDestinations.Domain.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Domain\obj\Debug\netstandard2.0\HolidayDestinations.Domain.csprojResolveAssemblyReference.cache
