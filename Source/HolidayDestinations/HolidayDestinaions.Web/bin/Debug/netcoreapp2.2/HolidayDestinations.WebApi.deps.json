@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "1aa1266d15352936831dae235f1239f6736eabcb"
+    "signature": "2410fbdf699d6ee9461e7a59b77391d3df1c03e9"
   },
   "compilationOptions": {
     "defines": [
@@ -24,8 +24,10 @@
     ".NETCoreApp,Version=v2.2": {
       "HolidayDestinations.WebApi/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "HolidayDestinations.Application": "1.0.0",
           "HolidayDestinations.Persistance": "1.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Microsoft.AspNetCore.All": "2.2.0",
           "Microsoft.EntityFrameworkCore.Design": "3.0.1",
           "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
@@ -53,6 +55,21 @@
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "BouncyCastle.NetCore/1.8.3": {
@@ -94,6 +111,21 @@
         },
         "compile": {
           "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "MediatR": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/2.2.6": {
@@ -4086,6 +4118,13 @@
       "path": "automapper/9.0.0",
       "hashPath": "automapper.9.0.0.nupkg.sha512"
     },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-prXKbljp+ubYf3jAcgHJytxlZUPsj/kjTyXSTaS/9U/coUzLIun8N+UpHFrY3g2d7pp0PzIlWY60m+zRq1vrZQ==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
+    },
     "BouncyCastle.NetCore/1.8.3": {
       "type": "package",
       "serviceable": true,
@@ -4106,6 +4145,13 @@
       "sha512": "sha512-YGFwy3pCM13K+s3nrSDjC/wP4AYSUt7+HLtgiPPRBe2bG1joeFdOq17YZ2Y1lc4lg+m9ew0dMcQHVn5yGH7uDA==",
       "path": "mediatr/7.0.0",
       "hashPath": "mediatr.7.0.0.nupkg.sha512"
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t5hdyZBYWzakFoor2iVh3OpG8hVtMBwzbItXMPOp/4Ytq5sLl1c0/tt6jp30VG+nme1bNtzULnpjbW/K0TYb8A==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/7.0.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/2.2.6": {
       "type": "package",

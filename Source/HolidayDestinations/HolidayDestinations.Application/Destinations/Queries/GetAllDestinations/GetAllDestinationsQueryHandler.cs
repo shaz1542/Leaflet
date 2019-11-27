@@ -31,9 +31,7 @@ namespace HolidayDestinations.Application.Destinations.Queries.GetAllDestination
             {
                 Destinations = _mapper.Map<IEnumerable<DestinationDto>>(destinations),
             };
-
             return model;
-            
         }
     }
 }

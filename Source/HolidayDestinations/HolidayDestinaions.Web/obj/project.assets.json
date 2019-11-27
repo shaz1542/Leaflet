@@ -15,6 +15,19 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "BouncyCastle.NetCore/1.8.3": {
         "type": "package",
         "dependencies": {
@@ -88,6 +101,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "MessagePack/1.7.3.4": {
@@ -5633,6 +5659,18 @@
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "sha512": "prXKbljp+ubYf3jAcgHJytxlZUPsj/kjTyXSTaS/9U/coUzLIun8N+UpHFrY3g2d7pp0PzIlWY60m+zRq1vrZQ==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
+      "files": [
+        ".signature.p7s",
+        "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+      ]
+    },
     "BouncyCastle.NetCore/1.8.3": {
       "sha512": "An0cxp/uGPkMWfjAVyHJWBQ9igea74Ma8rtMnpkEwjemx8EoVo7IUIFpFfxpBgVuSbpQueKo2m/CoSxxfLHTtw==",
       "type": "package",
@@ -5703,6 +5741,17 @@
         "lib/netstandard2.0/MediatR.dll",
         "mediatr.7.0.0.nupkg.sha512",
         "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "sha512": "t5hdyZBYWzakFoor2iVh3OpG8hVtMBwzbItXMPOp/4Ytq5sLl1c0/tt6jp30VG+nme1bNtzULnpjbW/K0TYb8A==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/7.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "MessagePack/1.7.3.4": {
@@ -14782,8 +14831,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
       "HolidayDestinations.Application >= 1.0.0",
       "HolidayDestinations.Persistance >= 1.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 7.0.0",
       "Microsoft.AspNetCore.All >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.0.1",
       "Microsoft.EntityFrameworkCore.Relational >= 2.2.0",
@@ -14843,9 +14894,17 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "7.0.0"
+          },
           "MySql.Data.EntityFrameworkCore": {
             "target": "Package",
             "version": "8.0.18"
+          },
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "7.0.0"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",

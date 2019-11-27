@@ -9,51 +9,43 @@ using HolidayDestinations.Application.Destinations.Commands.CreateDestination;
 using HolidayDestinations.Domain.Entities;
 using HolidayDestinations.Application.Interfaces;
 using System.Threading;
+using HolidayDestinations.Application.Destinations.Queries.GetAllDestinations;
 
 namespace HolidayDestinations.Web.Controllers
 {
     [Route("api/[controller]")]
-    public class HolidayDestinationsController : Controller
+    public class HolidayDestinationsController : BaseController
     {
-        public IHolidayDestinationsDbContext _context;
-        
-        public HolidayDestinationsController(IHolidayDestinationsDbContext context)
+        public HolidayDestinationsController()
         {
-            _context = context;
-        }
-        // GET api/values
-        [HttpGet]
-        public  IEnumerable<Destination> GetAsync(CancellationToken cancellationToken)
-        {
-            // Creates the database if not exists
-            var p = _context.Database.EnsureCreated();
-            //GET ALL THE saved destinations fro the db
-            List<Destination> desx = _context.Destinations.ToList();
-            return desx;
-        }
-
-
-        // POST api/values
-        [HttpPost]
-        public  void PostAsync([FromBody]Destination value,CancellationToken cancellationToken)
-        {
-            //GET the destination Model
-            int count = _context.Destinations.Count();
-            Destination d = new Destination()
-            {
-                Note = value.Note,
-                Latitude = value.Latitude,
-                Longitude = value.Longitude
-            };
-            _context.Destinations.AddAsync(d);
-            _context.SaveChangesAsync(cancellationToken);
             
         }
-        
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+
+        [HttpGet]
+        public async Task<DestinationsListViewModel> GetAll()
         {
+            // Creates the database if not exists
+            return await Mediator.Send(new GetAllDestinationsQuery());
         }
+        
+        [HttpPost]
+        public async Task<ActionResult<int>> Create([FromBody] CreateDestinationCommand command)
+        {
+            var DestinationId = await Mediator.Send(command);
+
+            return Ok(DestinationId);
+        }
+        /*
+         // GET api/values
+         [HttpGet]
+         public  IEnumerable<Destination> GetAsync(CancellationToken cancellationToken)
+         {
+             // Creates the database if not exists
+             var p = _context.Database.EnsureCreated();
+             //GET ALL THE saved destinations fro the db
+             List<Destination> desx = _context.Destinations.ToList();
+             return desx;
+         }
+         */
     }
 }

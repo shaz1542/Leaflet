@@ -9,6 +9,7 @@ using HolidayDestinations.Web.Helper;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
+using HolidayDestinations.Application.Destinations.Queries.GetAllDestinations;
 
 namespace HolidayDestinations.Web.Controllers
 {
@@ -23,14 +24,15 @@ namespace HolidayDestinations.Web.Controllers
         
         public async Task<IActionResult> Index()
         {
-            //GET ALL THE DESTINATIONS
-            List<Destination> destinations = new List<Destination>() { };
+            //TODO move serialization in helper
+            
+            DestinationsListViewModel destinations= new DestinationsListViewModel() { };
 
             HttpResponseMessage res = await _client.GetAsync("api/HolidayDestinations");
             if (res.IsSuccessStatusCode)
             {
                 var result = res.Content.ReadAsStringAsync().Result;
-                destinations = JsonConvert.DeserializeObject<List<Destination>>(result);
+                destinations = JsonConvert.DeserializeObject<DestinationsListViewModel>(result);
             }
             return View(destinations);
         }
@@ -44,23 +46,10 @@ namespace HolidayDestinations.Web.Controllers
             var byteContent = new ByteArrayContent(buffer);
             byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
             HttpResponseMessage res = await _client.PostAsync("api/HolidayDestinations", byteContent);
-            
-            if (res.IsSuccessStatusCode)
-            {
-                //rerender OR Redirect to the Index
-            }
-            
+            //TODO: error handling and logging   
             return Json(new { success = true });
         }
-
-        [HttpPost]
-        public ActionResult DeleteDestination(int destinaitonId)
-        {
-            //CALL THE API CLINET DELETE THE DESTINATION 
-            //RERENDER THE PAGE
-            return Json(new { success = true });
-        }
-
+        
 
         public IActionResult Error()
         {

@@ -9,3 +9,7 @@ C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDes
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Web\obj\Debug\netcoreapp2.0\HolidayDestinations.Web.AssemblyInfo.cs
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Web\obj\Debug\netcoreapp2.0\HolidayDestinations.Web.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Web\obj\Debug\netcoreapp2.0\HolidayDestinations.Web.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Web\bin\Debug\netcoreapp2.0\HolidayDestinations.Application.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Web\bin\Debug\netcoreapp2.0\HolidayDestinations.Domain.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Web\bin\Debug\netcoreapp2.0\HolidayDestinations.Application.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Web\bin\Debug\netcoreapp2.0\HolidayDestinations.Domain.pdb

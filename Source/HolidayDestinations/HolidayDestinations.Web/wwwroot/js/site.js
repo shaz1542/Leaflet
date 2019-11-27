@@ -10,7 +10,7 @@ $(document).ready(function () {
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoic2hhei1hdXo4OSIsImEiOiJjazNkaGo1YjkxNW53M2RrM3ZvaG54MzdsIn0.sRR1R6SlVByfXQ9h-hSEhw', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
             maxZoom: 18,
-            id: 'mapbox.satellite',
+            id: 'mapbox.streets',
             accessToken: 'pk.eyJ1Ijoic2hhei1hdXo4OSIsImEiOiJjazNkaGo1YjkxNW53M2RrM3ZvaG54MzdsIn0.sRR1R6SlVByfXQ9h-hSEhw'
         }).addTo(mymap);
 
@@ -26,8 +26,8 @@ $(document).ready(function () {
         var saveButton = '<input name="saveButton" onclick="saveDestination()" type ="submit"></input>'
         popup
             .setLatLng(e.latlng)
-            .setContent("<b>Hello world!</b>" + form
-            + "<br>I am a popup. you opened the popup at: " + e.latlng.toString()
+            .setContent("<b>Enter Destination Note!</b>" + form
+            + "<br>Your selected coordinates are: " + e.latlng.toString()
             + "<br/>" + saveButton
             )
             .openOn(mymap);
