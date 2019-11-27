@@ -24,7 +24,6 @@ namespace HolidayDestinations.Web.Controllers
         [HttpGet]
         public async Task<DestinationsListViewModel> GetAll()
         {
-            // Creates the database if not exists
             return await Mediator.Send(new GetAllDestinationsQuery());
         }
         
@@ -35,17 +34,6 @@ namespace HolidayDestinations.Web.Controllers
 
             return Ok(DestinationId);
         }
-        /*
-         // GET api/values
-         [HttpGet]
-         public  IEnumerable<Destination> GetAsync(CancellationToken cancellationToken)
-         {
-             // Creates the database if not exists
-             var p = _context.Database.EnsureCreated();
-             //GET ALL THE saved destinations fro the db
-             List<Destination> desx = _context.Destinations.ToList();
-             return desx;
-         }
-         */
+        
     }
 }

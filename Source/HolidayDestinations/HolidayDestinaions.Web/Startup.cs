@@ -18,17 +18,18 @@ namespace HolidayDestinations.Web
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
         }
 
-        public IConfiguration Configuration { get; }    
+        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(new Assembly[] { typeof(AutoMapperProfile).GetTypeInfo().Assembly });
 
-            services.AddDbContext<IHolidayDestinationsDbContext,HolidayDestinationsDbContext>(options =>
-                options.UseMySQL("server=localhost;database=holiday_destinations_development;user=root;password="));
+            services.AddDbContext<IHolidayDestinationsDbContext, HolidayDestinationsDbContext>(options =>
+                 options.UseMySQL("server=localhost;database=holiday_destinations_staging;user=root;password="));
 
             services.AddMediatR(typeof(GetDestinationQueryHandler).GetTypeInfo().Assembly);
 
@@ -42,7 +43,7 @@ namespace HolidayDestinations.Web
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            
             app.UseMvc();
         }
     }

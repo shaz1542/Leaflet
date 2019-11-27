@@ -25,6 +25,8 @@ namespace HolidayDestinations.Application.Destinations.Queries.GetAllDestination
 
         public async Task<DestinationsListViewModel> Handle(GetAllDestinationsQuery request, CancellationToken cancellationToken)
         {
+            _context.Database.EnsureCreated();
+
             var destinations = await _context.Destinations.ToListAsync(cancellationToken);
 
             var model = new DestinationsListViewModel
