@@ -35,15 +35,15 @@ namespace HolidayDestinations.Web.Controllers
 
         // POST api/values
         [HttpPost]
-        public  void Post([FromBody]Destination value,CancellationToken cancellationToken)
+        public  void PostAsync([FromBody]Destination value,CancellationToken cancellationToken)
         {
             //GET the destination Model
             int count = _context.Destinations.Count();
             Destination d = new Destination()
             {
-                Note = String.Format("this is a test destination {0}", count),
-                Latitude = 22.33,
-                Longitude = 22.33
+                Note = value.Note,
+                Latitude = value.Latitude,
+                Longitude = value.Longitude
             };
             _context.Destinations.AddAsync(d);
             _context.SaveChangesAsync(cancellationToken);

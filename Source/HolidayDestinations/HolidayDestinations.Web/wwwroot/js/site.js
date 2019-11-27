@@ -14,60 +14,12 @@ $(document).ready(function () {
             accessToken: 'pk.eyJ1Ijoic2hhei1hdXo4OSIsImEiOiJjazNkaGo1YjkxNW53M2RrM3ZvaG54MzdsIn0.sRR1R6SlVByfXQ9h-hSEhw'
         }).addTo(mymap);
 
+        mymap.on('click', onMapClick);
+
         loadMarkers();
     }
     init();
-    //Add a marker
-    var marker = L.marker([51.5, -0.09]).addTo(mymap);
-    marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-
-    //add circle
-    var circle = L.circle([51.508, -0.11], {
-        color: 'red',
-        fillColor: '#f03',
-        fillOpacity: 0.5,
-        radius: 500
-    }).addTo(mymap);
-    circle.bindPopup("I am a circle.");
-    //add polygon
-    var polygon = L.polygon([
-        [51.509, -0.08],
-        [51.503, -0.06],
-        [51.51, -0.047]
-    ]).addTo(mymap);
-    polygon.bindPopup("I am a polygon.");
-
-    var popup = L.popup();
-
-    function saveDestination() {
-        var s = document.getElementsByName('destinationTitle')[0];
-        console.log(s);
-        console.log('save destination: ' + s.value + ' ; lat:' + s.getAttribute("lat") + ';lng : ' + s.getAttribute("lng"));
-        //send ajax request to the controller
-        var serviceURL = '/Holidays/SaveDestination';
-
-        var locationData = {
-            Note: "test",
-            Latitude: "23",
-            Longitude: "23"
-        }
-
-        $.ajax({
-            type: "POST",
-            url: serviceURL,
-            data: JSON.stringify(locationData),
-            contentType: "application/json",
-            success: function (result) {
-                alert(data);
-            },
-            error: function (result) {
-                alert('error');
-            }
-        });
-
-        ////End of ajax request
-    }
-
+    
     function onMapClick(e) {
         console.log(e);
         var form = '<br/><textarea name="destinationTitle" lat="' + e.latlng.lat + '" lng="' + e.latlng.lng + '" latlng="' + e.latlng.toString() + '"></textarea>';
@@ -83,7 +35,7 @@ $(document).ready(function () {
 
     }
 
-    mymap.on('click', onMapClick);
+    
 
     function loadMarkers()
     {
@@ -100,3 +52,31 @@ $(document).ready(function () {
 
 
 });
+var popup = L.popup();
+
+
+function saveDestination() {
+    var s = document.getElementsByName('destinationTitle')[0];
+
+    var serviceURL = '/Holidays/SaveDestination';
+
+    var locationData = {
+        Note: s.value,
+        Latitude: s.getAttribute("lat"),
+        Longitude: s.getAttribute("lng")
+    }
+
+    $.ajax({
+        type: "POST",
+        url: serviceURL,
+        data: JSON.stringify(locationData),
+        contentType: "application/json",
+        success: function (result) {
+            location.reload();  
+        },
+        error: function (result) {
+            alert('error');
+        }
+    });
+    ////End of ajax request
+}

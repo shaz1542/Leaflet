@@ -8,26 +8,25 @@ using HolidayDestinations.Web.Models;
 using HolidayDestinations.Web.Helper;
 using System.Net.Http;
 using Newtonsoft.Json;
+using System.Net.Http.Headers;
 
 namespace HolidayDestinations.Web.Controllers
 {
-    /*public class Destination
-    {
-        public string Note { get; set; }
-        public string Latitude { get; set; }
-        public string Longitude { get; set; }
-    }*/
-
     public class HolidaysController : Controller
     {
-        HolidayDestinationsApi _api = new HolidayDestinationsApi();
+        private HttpClient _client { get; set; }
 
+        public HolidaysController()
+        {
+            _client = new HolidayDestinationsApi().Initialize();
+        }
+        
         public async Task<IActionResult> Index()
         {
             //GET ALL THE DESTINATIONS
             List<Destination> destinations = new List<Destination>() { };
-            HttpClient client = _api.Initialize();
-            HttpResponseMessage res = await client.GetAsync("api/HolidayDestinations");
+
+            HttpResponseMessage res = await _client.GetAsync("api/HolidayDestinations");
             if (res.IsSuccessStatusCode)
             {
                 var result = res.Content.ReadAsStringAsync().Result;
@@ -38,10 +37,19 @@ namespace HolidayDestinations.Web.Controllers
 
 
         [HttpPost]
-        public ActionResult SaveDestination([FromBody]Destination data)
+        public async Task<ActionResult> SaveDestination([FromBody]Destination data)
         {
-            var p = data;
-            ViewData["Message"] = "Your application description page.";
+            var destination = JsonConvert.SerializeObject(data);
+            var buffer = System.Text.Encoding.UTF8.GetBytes(destination);
+            var byteContent = new ByteArrayContent(buffer);
+            byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            HttpResponseMessage res = await _client.PostAsync("api/HolidayDestinations", byteContent);
+            
+            if (res.IsSuccessStatusCode)
+            {
+                //rerender OR Redirect to the Index
+            }
+            
             return Json(new { success = true });
         }
 

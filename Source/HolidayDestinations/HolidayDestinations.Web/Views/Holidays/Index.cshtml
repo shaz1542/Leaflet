@@ -11,7 +11,7 @@
 
 
 <!-- Make sure you put this AFTER Leaflet's CSS -->
-<div name="destinationsContainer" destinations="@Model.First().Note">
+<div name="destinationsContainer">
     @{foreach (var destination in Model)
         {
         <div name="destination" note="@destination.Note" latitude ="@destination.Latitude" longitude="@destination.Longitude">
