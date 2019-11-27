@@ -12,11 +12,11 @@ namespace HolidayDestinations.Application.Destinations.Queries.GetAllDestination
 {
     public class GetAllDestinationsQueryHandler : IRequestHandler<GetAllDestinationsQuery, DestinationsListViewModel>
     {
-        private readonly IHolidayDestinationDbContext _context;
+        private readonly IHolidayDestinationsDbContext _context;
         private readonly IMapper _mapper;
 
 
-        public GetAllDestinationsQueryHandler(IHolidayDestinationDbContext context, IMapper mapper)
+        public GetAllDestinationsQueryHandler(IHolidayDestinationsDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
@@ -29,7 +29,7 @@ namespace HolidayDestinations.Application.Destinations.Queries.GetAllDestination
 
             var model = new DestinationsListViewModel
             {
-                Destinations = _mapper.Map<IEnumerable<DestinationsDto>>(destinations),
+                Destinations = _mapper.Map<IEnumerable<DestinationDto>>(destinations),
             };
 
             return model;

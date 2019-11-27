@@ -1,0 +1,17 @@
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinaions.Web.deps.json
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinaions.Web.runtimeconfig.json
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinaions.Web.runtimeconfig.dev.json
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinaions.Web.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinaions.Web.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinations.Application.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinations.Domain.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinations.Persistance.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinations.Application.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinations.Domain.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinations.Persistance.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinaions.Web.csprojResolveAssemblyReference.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinaions.Web.csproj.CoreCompileInputs.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinaions.Web.AssemblyInfoInputs.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinaions.Web.AssemblyInfo.cs
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinaions.Web.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinaions.Web.pdb

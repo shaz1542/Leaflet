@@ -3,7 +3,7 @@ using System;
 
 namespace HolidayDestinations.Application.Destinations.Commands.CreateDestination
 {
-    class CreateDestinationCommand : IRequest<int>
+    public class CreateDestinationCommand : IRequest<int>
     {
         public int Id { get; set; }
 

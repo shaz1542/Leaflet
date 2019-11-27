@@ -1,3 +1,8 @@
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.csproj.HolidayDestinations.WebUI.exe.config
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.AssemblyInfoInputs.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.AssemblyInfo.cs
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\HolidayDestinations.WebUI.exe.config
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\HolidayDestinations.WebUI.deps.json
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\HolidayDestinations.WebUI.exe
@@ -101,9 +106,11 @@ C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDes
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\refs\System.Xml.XPath.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\refs\System.Xml.XPath.XDocument.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\libuv.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\AutoMapper.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\BouncyCastle.Crypto.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\Google.Protobuf.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\Esent.Interop.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\MediatR.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\Microsoft.AspNetCore.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\Microsoft.AspNetCore.Antiforgery.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -209,6 +216,7 @@ C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDes
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\Microsoft.Win32.Registry.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\MySql.Data.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\MySql.Data.EntityFrameworkCore.Design.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\Newtonsoft.Json.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\Newtonsoft.Json.Bson.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\NuGet.Frameworks.dll
@@ -331,10 +339,9 @@ C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDes
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\System.Xml.XmlSerializer.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\System.Xml.XPath.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\System.Xml.XPath.XDocument.dll
-C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.csprojResolveAssemblyReference.cache
-C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.csproj.HolidayDestinations.WebUI.exe.config
-C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.csproj.CoreCompileInputs.cache
-C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.AssemblyInfoInputs.cache
-C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.AssemblyInfo.cs
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\HolidayDestinations.Application.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\HolidayDestinations.Domain.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\HolidayDestinations.Application.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\bin\Debug\net461\HolidayDestinations.Domain.pdb
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.exe
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations\obj\Debug\net461\HolidayDestinations.WebUI.pdb

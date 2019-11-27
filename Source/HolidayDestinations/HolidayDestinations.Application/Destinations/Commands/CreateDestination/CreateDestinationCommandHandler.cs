@@ -11,9 +11,9 @@ namespace HolidayDestinations.Application.Destinations.Commands.CreateDestinatio
 {
     class CreateDestinationCommandHandler: IRequestHandler<CreateDestinationCommand, int>
     {
-        private readonly IHolidayDestinationDbContext _context;
+        private readonly IHolidayDestinationsDbContext _context;
 
-        public CreateDestinationCommandHandler(IHolidayDestinationDbContext context)
+        public CreateDestinationCommandHandler(IHolidayDestinationsDbContext context)
         {
             _context = context;
         }

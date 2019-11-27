@@ -1,0 +1,13 @@
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\bin\Debug\netcoreapp2.2\HolidayDestinations.Persistance.deps.json
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\bin\Debug\netcoreapp2.2\HolidayDestinations.Persistance.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\obj\Debug\netcoreapp2.2\HolidayDestinations.Persistance.csprojResolveAssemblyReference.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\obj\Debug\netcoreapp2.2\HolidayDestinations.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\obj\Debug\netcoreapp2.2\HolidayDestinations.Persistance.AssemblyInfoInputs.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\obj\Debug\netcoreapp2.2\HolidayDestinations.Persistance.AssemblyInfo.cs
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\bin\Debug\netcoreapp2.2\HolidayDestinations.Persistance.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\obj\Debug\netcoreapp2.2\HolidayDestinations.Persistance.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\obj\Debug\netcoreapp2.2\HolidayDestinations.Persistance.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\bin\Debug\netcoreapp2.2\HolidayDestinations.Domain.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\bin\Debug\netcoreapp2.2\HolidayDestinations.Domain.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\bin\Debug\netcoreapp2.2\HolidayDestinations.Application.dll
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinations.Persistance\bin\Debug\netcoreapp2.2\HolidayDestinations.Application.pdb

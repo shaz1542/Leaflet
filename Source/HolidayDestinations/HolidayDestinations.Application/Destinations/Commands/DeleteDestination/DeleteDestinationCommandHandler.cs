@@ -10,9 +10,9 @@ namespace HolidayDestinations.Application.Destinations.Commands.DeleteDestinatio
 {
     class DeleteDestinationCommandHandler : IRequestHandler<DeleteDestinationCommand>
     {
-        private readonly IHolidayDestinationDbContext _context;
+        private readonly IHolidayDestinationsDbContext _context;
 
-        public DeleteDestinationCommandHandler(IHolidayDestinationDbContext context)
+        public DeleteDestinationCommandHandler(IHolidayDestinationsDbContext context)
         {
             _context = context;
         }

@@ -6,6 +6,6 @@ namespace HolidayDestinations.Application.Destinations.Queries.GetAllDestination
 {
     public class DestinationsListViewModel
     {
-        public IEnumerable<DestinationsDto> Destinations { get; set; }
+        public IEnumerable<DestinationDto> Destinations { get; set; }
     }
 }

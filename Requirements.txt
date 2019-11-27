@@ -44,17 +44,19 @@ have a database conection needs to be mysql
 30 11
 }
 
-video on Clean 1 hour
+Video on Clean 1 hour - Done {Great learning}
+
+
+DATABASE  NEEDS REFACTORING
+INFRASTRUE NEEDS SEGRGATION	
+API NEEDS IMPLEMENTATION
+
 REST API
 
 Refactor 1 hr
-
 Test cases 30 mins
-
 Testing on mobile30 mins
-
 API 1hr
-
 Documentation 30 mins
 
 
