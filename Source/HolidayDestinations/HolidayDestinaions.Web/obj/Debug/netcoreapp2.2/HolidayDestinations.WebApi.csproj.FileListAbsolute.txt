@@ -9,7 +9,6 @@ C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDes
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinations.Application.pdb
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinations.Domain.pdb
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\bin\Debug\netcoreapp2.2\HolidayDestinations.Persistance.pdb
-C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinations.WebApi.csprojResolveAssemblyReference.cache
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinations.WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinations.WebApi.RazorAssemblyInfo.cache
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinations.WebApi.RazorAssemblyInfo.cs
@@ -18,3 +17,5 @@ C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDes
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinations.WebApi.RazorTargetAssemblyInfo.cache
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinations.WebApi.dll
 C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinations.WebApi.pdb
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinations.WebApi.csprojAssemblyReference.cache
+C:\Users\Shaz\Documents\SourceTree\Leaflet\Source\HolidayDestinations\HolidayDestinaions.Web\obj\Debug\netcoreapp2.2\HolidayDestinations.WebApi.csproj.CopyComplete

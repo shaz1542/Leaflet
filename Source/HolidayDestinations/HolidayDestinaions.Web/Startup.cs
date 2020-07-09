@@ -28,8 +28,9 @@ namespace HolidayDestinations.Web
         {
             services.AddAutoMapper(new Assembly[] { typeof(AutoMapperProfile).GetTypeInfo().Assembly });
 
+
             services.AddDbContext<IHolidayDestinationsDbContext, HolidayDestinationsDbContext>(options =>
-                 options.UseMySQL("server=localhost;database=holiday_destinations_staging;user=root;password="));
+                 options.UseMySQL("server=localhost;database=holiday_destinations_development;user=root;password="));
 
             services.AddMediatR(typeof(GetDestinationQueryHandler).GetTypeInfo().Assembly);
 
